@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.poster-container{
+    height: 90vh;
+    width: 100vw;
+    border-bottom: 2px solid red;
+    background-image: url(../Assets/images/Netflix-poster.jpg);
+    background-size: cover;
+    border: 1px solid black;
+
+}
+.first-contain{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.unlimit-contain{
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.unlimit-container{
+    height: 200px;
+    width: 500px;
+    color: white;
+    border: 1px solid black;
+    gap:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email-contain{
+    display: flex;
+}
